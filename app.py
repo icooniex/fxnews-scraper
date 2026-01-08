@@ -26,8 +26,18 @@ def scrape_forexfactory():
     events = {}
 
     try:
+        logger.info("🎭 Launching Playwright browser...")
         with sync_playwright() as p:
-            browser = p.chromium.launch(headless=True, slow_mo=20)
+            browser = p.chromium.launch(
+                headless=True,
+                slow_mo=20,
+                args=[
+                    '--no-sandbox',
+                    '--disable-setuid-sandbox',
+                    '--disable-dev-shm-usage',
+                    '--disable-gpu'
+                ]
+            )
             page = browser.new_page(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
                 locale="en-US"

@@ -42,5 +42,8 @@ instance/
 .DS_Store
 Thumbs.db
 
-# Data files (optional - comment out if you want to commit initial data)
-# weekly_ecocar.json
+# Data files (keep for Railway)
+# weekly_ecocar.json will be regenerated
+
+# Playwright
+.playwright/
