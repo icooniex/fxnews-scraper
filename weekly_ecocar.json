@@ -1,0 +1,80 @@
+[
+  {
+    "event_time_utc": "2026-01-05T15:00:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "ISM Manufacturing PMI"
+  },
+  {
+    "event_time_utc": "2026-01-08T13:30:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Unemployment Claims"
+  },
+  {
+    "event_time_utc": "2026-01-07T00:30:00+00:00",
+    "currency": "AUD",
+    "impact": "HIGH",
+    "event": "CPI m/m"
+  },
+  {
+    "event_time_utc": "2026-01-07T00:30:00+00:00",
+    "currency": "AUD",
+    "impact": "HIGH",
+    "event": "CPI y/y"
+  },
+  {
+    "event_time_utc": "2026-01-07T00:30:00+00:00",
+    "currency": "AUD",
+    "impact": "HIGH",
+    "event": "Trimmed Mean CPI m/m"
+  },
+  {
+    "event_time_utc": "2026-01-07T13:15:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "ADP Non-Farm Employment Change"
+  },
+  {
+    "event_time_utc": "2026-01-07T15:00:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "ISM Services PMI"
+  },
+  {
+    "event_time_utc": "2026-01-07T15:00:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "JOLTS Job Openings"
+  },
+  {
+    "event_time_utc": "2026-01-09T13:30:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Average Hourly Earnings m/m"
+  },
+  {
+    "event_time_utc": "2026-01-09T13:30:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Non-Farm Employment Change"
+  },
+  {
+    "event_time_utc": "2026-01-09T13:30:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Unemployment Rate"
+  },
+  {
+    "event_time_utc": "2026-01-09T15:00:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Prelim UoM Consumer Sentiment"
+  },
+  {
+    "event_time_utc": "2026-01-09T15:00:00+00:00",
+    "currency": "USD",
+    "impact": "HIGH",
+    "event": "Prelim UoM Inflation Expectations"
+  }
+]
