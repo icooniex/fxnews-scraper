@@ -260,10 +260,11 @@ scheduler.add_job(
     replace_existing=True
 )
 
+# Start the scheduler (must be outside if __name__ == '__main__' for gunicorn)
+scheduler.start()
+logger.info("📅 Scheduler started - will run every Sunday at 00:00 Bangkok time")
+
 if __name__ == '__main__':
-    # Start the scheduler
-    scheduler.start()
-    logger.info("📅 Scheduler started - will run every Sunday at 00:00 Bangkok time")
     
     # Run once on startup if file doesn't exist
     if not os.path.exists(JSON_FILE):
